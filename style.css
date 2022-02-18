@@ -1,0 +1,82 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}*/
+
+body {
+  /*font-family: 'monaco', monospace;
+  font-size: 1rem;
+  line-height: 1.4;*/
+  background: #8F00FF;
+  /*
+  display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+
+header {
+  padding: 0.9 0rem;
+  margin: 1.5rem;
+  text-align: center;
+}
+
+#page{
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.signuppage{
+  background: white;
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+}
+
+.form-page{
+  padding: 0.5rem;
+}
+
+.signup{
+  border: 1px solid #ced4da;
+  border-radius: 1.25rem;
+  width: 60%;
+  height: 1.95rem;
+  padding: 0.3rem 0.7rem;
+  border-color: rgb(0, 0, 0);
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #8F00FF;
+}
+
+.terms{
+  border: 1px solid #8F00FF;
+}
+
+.form-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#signin{
+  text-align: center;
+}
+
+button{
+  color: white;
+  width: 40%;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  line-height: 0.5;
+  background: #8F00FF;
+  border-radius: 30px;
+}
+
+.social{
+  text-align: center;
+  padding-bottom: 10px;
+}
