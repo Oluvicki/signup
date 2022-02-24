@@ -9,10 +9,6 @@ body {
   font-size: 1rem;
   line-height: 1.4;*/
   background: #8F00FF;
-  /*
-  display: flex;
-  justify-content: center;
-  align-items: center;*/
 }
 
 header {
@@ -24,6 +20,7 @@ header {
 #page{
   margin: 1.5rem;
   text-align: center;
+  color:#291dcc
 }
 
 .signuppage{
@@ -79,4 +76,13 @@ button{
 .social{
   text-align: center;
   padding-bottom: 10px;
+}
+
+a{
+  color:#cc631d;
+  text-decoration: none; 
+}
+
+a:hover{
+  color:#8F00FF;
 }
